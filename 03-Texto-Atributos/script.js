@@ -105,4 +105,61 @@ list.textContent = "Carganding...";
 title.innerHTML = "¡Ricos <span>Agentes</span>!";
 list.innerHTML = `<li>Iso</li>
                   <li class="oculto">Phoenix</li>
-                  <li>Cypher</li>`
+                  <li>Cypher</li>`;
+
+/* 
+
+  getAttribute()
+
+  Devuelve el valor del atributo del elemento que le indiquemos
+
+  elemeto.getAttribute(atributo)
+
+
+
+*/
+
+const enlace = document.getElementsByTagName("a");
+
+console.log(enlace[0].getAttribute("href"));
+
+/* 
+
+  removeAttribute()
+
+  Esto elimina el valor del atributo de un elemento
+
+  element.removeAttribute(atributo)
+
+*/
+
+enlace[0].removeAttribute("href");
+
+console.log(enlace[0].removeAttribute("href"));
+
+/* 
+
+  setAttribute()
+
+  Asigna un atributo a un elemento seleccionado
+
+  elemento.setAttribute(atributo, valor)
+
+  - obreescribir un atributo ya declarado
+  - Definir un nuevo atributo y su valor
+
+*/
+
+enlace[0].setAttribute("href", "https://www.instagram.com/riotgames");
+
+console.log(enlace[0].getAttribute("href", "https://www.instagram.com/riotgames"));
+
+// Antes
+
+console.log(enlace[0].getAttribute("target"));
+
+enlace[0].setAttribute("target", "_blank");
+
+// Despues
+
+console.log(enlace[0].getAttribute("target"));
