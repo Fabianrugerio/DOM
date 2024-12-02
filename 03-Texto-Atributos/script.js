@@ -163,3 +163,5 @@ enlace[0].setAttribute("target", "_blank");
 // Despues
 
 console.log(enlace[0].getAttribute("target"));
+
+/* commit -m "Terminamos textos y atributos del DOM" */
