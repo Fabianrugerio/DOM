@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+.container {
+  background-color: blueviolet;
+  padding: 24px;
+  max-width: 400;
+  border-radius: 12px;
+}
+.subtitle {
+  margin-bottom: 24px;
+}
+.list {
+  list-style: none;
+}
+.list-item {
+  padding: 12px 8px;
+  color: white;
+  margin-bottom: 8px;
+  border-radius: 12px;
+}
+.bg-color-one {
+  background-color: chocolate;
+}
+.bg-color-one:hover {
+  background-color: crimson;
+}
+.bg-color-two {
+  background-color: cadetblue;
+}
+.bg-color-two:hover {
+  background-color: darkcyan;
+}
