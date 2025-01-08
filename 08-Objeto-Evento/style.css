@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: sans-serif;
+}
+body {
+  background-color: black;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo {
+  margin-bottom: 1rem;
+}
+
+.button {
+  padding: 12px 24px;
+  border-radius: 48px;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: blue;
+  background-color: gainsboro;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+.button:hover {
+  background-color: darkgray;
+  scale: 1.1;
+  transition: all .3s ease;
+}
+
+.button:active {
+  background-color: gray;
+  scale: 1;
+  transition: all .3s ease;
+}
